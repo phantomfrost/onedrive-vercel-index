@@ -7,7 +7,7 @@
     "400",
     "600"
   ],
-  "footer": "Powered by <a class=\"hover:underline\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>.<br/>一言（ヒトコト）❤：<p id="hitokoto">:D 获取中...</p><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>",
+  "footer": "Powered by <a class=\"hover:underline\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>.<br/>一言（ヒトコト）❤：<p id=\"hitokoto\">:D 获取中...</p><script src=\"https://v1.hitokoto.cn/?encode=js&select=%23hitokoto\" defer></script>",
   "protectedRoutes": [
     "/🌞 Private folder/u-need-a-password",
     "/🥟 Some test files/Protected route"
