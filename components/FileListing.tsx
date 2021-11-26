@@ -68,7 +68,7 @@ const FileListItem: FunctionComponent<{
   const renderEmoji = emojiIcon && !emojiIcon.index
 
   return (
-    <div className="grid items-center grid-cols-11 p-3 space-x-2 cursor-pointer">
+    <div className="grid items-center grid-cols-11 p-3 space-x-2 cursor-pointer" zindex="20">
       <div className="md:col-span-7 flex items-center col-span-11 space-x-2 truncate">
         {/* <div>{c.file ? c.file.mimeType : 'folder'}</div> */}
         <div className="flex-shrink-0 w-5 text-center">
@@ -112,14 +112,14 @@ const FileListing: FunctionComponent<{ query?: ParsedUrlQuery }> = ({ query }) =
 
   if (error) {
     return (
-      <div className="dark:bg-gray-900 p-3 bg-white rounded shadow">
+      <div className="dark:bg-gray-900 p-3 bg-white rounded shadow" zindex="20">
         {error.message.includes('401') ? <Auth redirect={path} /> : <FourOhFour errorMsg={error.message} />}
       </div>
     )
   }
   if (!data) {
     return (
-      <div className="dark:bg-gray-900 p-3 bg-white rounded shadow">
+      <div className="dark:bg-gray-900 p-3 bg-white rounded shadow" zindex="20">
         <Loading loadingText="Loading ..." />
       </div>
     )
@@ -174,7 +174,7 @@ const FileListing: FunctionComponent<{ query?: ParsedUrlQuery }> = ({ query }) =
     })
 
     return (
-      <div className="dark:bg-gray-900 dark:text-gray-100 bg-white rounded shadow">
+      <div className="dark:bg-gray-900 dark:text-gray-100 bg-white rounded shadow" zindex="20">
         <div className="dark:border-gray-700 grid items-center grid-cols-12 p-3 space-x-2 border-b border-gray-200">
           <div className="md:col-span-7 col-span-12 font-bold">Name</div>
           <div className="md:block hidden col-span-3 font-bold">Last Modified</div>
@@ -229,7 +229,7 @@ const FileListing: FunctionComponent<{ query?: ParsedUrlQuery }> = ({ query }) =
         )}
 
         {children.map((c: any) => (
-          <div className="hover:bg-gray-100 dark:hover:bg-gray-850 grid grid-cols-12" key={c.id}>
+          <div className="hover:bg-gray-100 dark:hover:bg-gray-850 grid grid-cols-12" key={c.id} zindex="20">
             <div
               className="col-span-11"
               onClick={e => {
@@ -283,7 +283,7 @@ const FileListing: FunctionComponent<{ query?: ParsedUrlQuery }> = ({ query }) =
         ))}
 
         {!onlyOnePage && (
-          <div>
+          <div zindex="20">
             <div className="dark:border-gray-700 p-3 font-mono text-sm text-center text-gray-400 border-b border-gray-200">
               - showing {size} page{size > 1 ? 's' : ''} of {isLoadingMore ? '...' : children.length} files -
             </div>
@@ -386,7 +386,7 @@ const FileListing: FunctionComponent<{ query?: ParsedUrlQuery }> = ({ query }) =
 
     return (
       <>
-        <div className="dark:bg-gray-900 p-3 bg-white rounded shadow">
+        <div className="dark:bg-gray-900 p-3 bg-white rounded shadow" zindex="20">
           <FourOhFour
             errorMsg={`Preview for file ${fileName} is not available, download directly with the button below.`}
           />
@@ -399,7 +399,7 @@ const FileListing: FunctionComponent<{ query?: ParsedUrlQuery }> = ({ query }) =
   }
 
   return (
-    <div className="dark:bg-gray-900 p-3 bg-white rounded shadow">
+    <div className="dark:bg-gray-900 p-3 bg-white rounded shadow" zindex="20">
       <FourOhFour errorMsg={`Cannot preview ${path}`} />
     </div>
   )
