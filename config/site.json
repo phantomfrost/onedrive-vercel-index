@@ -7,7 +7,7 @@
     "400",
     "600"
   ],
-  "footer": "Powered by ❤ <a style=\"hover:underline\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>.<p id=\"hitokoto\">一言获取中...</p><script src=\"https://v1.hitokoto.cn/?encode=js&select=%23hitokoto\" defer></script><script type=\"text/javascript\" color=\"0,0,255\" opacity='0.7' zIndex=\"-2\" count=\"99\" src=\"//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js\"></script>",
+  "footer": "Powered by ❤ <a style=\"hover:underline\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>.<p id=\"hitokoto\">一言获取中...</p><script src=\"https://v1.hitokoto.cn/?encode=js&select=%23hitokoto\" defer></script><script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/gh/phantomfrost/CDN-For-Blog/ribbon.js\"></script>",
   "protectedRoutes": [
     "/🌞 Private folder/u-need-a-password",
     "/🥟 Some test files/Protected route"
