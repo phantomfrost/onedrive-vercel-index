@@ -7,7 +7,7 @@
     "400",
     "600"
   ],
-  "footer": "Powered by ❤ <a class=\"footurl\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>.<p id=\"hitokoto\">一言获取中...</p><script src=\"https://v1.hitokoto.cn/?encode=js&select=%23hitokoto\" defer></script><script type=\"text/javascript\" size=\"300\" alpha=\"0.6\" src=\"//cdn.jsdelivr.net/gh/phantomfrost/CDN-For-Blog/ribbon.js\" async></script><style>div{z-index:50;}a.footurl:hover{text-decoration:underline;}</style>",
+  "footer": "Powered by ❤ <a class=\"footurl\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>.<p id=\"hitokoto\">一言获取中...</p><script type=\"text/javascript\" size=\"300\" alpha=\"0.6\" src=\"//cdn.jsdelivr.net/gh/phantomfrost/CDN-For-Blog/ribbon.js\" defer></script><script src=\"https://v1.hitokoto.cn/?encode=js&select=%23hitokoto\" defer></script><style>div{z-index:50;}a.footurl:hover{text-decoration:underline;}</style>",
   "protectedRoutes": [
     "/🌞 Private folder/u-need-a-password",
     "/🥟 Some test files/Protected route"
